@@ -12,4 +12,4 @@ const capital = 60000;
 const tempo = 24;
 
 const taxaJuros = (montante / capital)**(1/tempo) - 1
-console.log (`A taxa de juros foi de ${(taxaJuros*100).toFixed(3)}%`)
+console.log (`O seu financiamento de ${capital} reais teve uma taxa de juros de ${(taxaJuros*100).toFixed(3)}%, pois após ${tempo} meses você teve que pagar ${montante} reais`)
