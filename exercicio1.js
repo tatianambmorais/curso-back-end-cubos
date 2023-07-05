@@ -5,3 +5,4 @@ let alturaDaPessoa=1.79
 
 let IMC=(pesoDaPessoa)/(Math.pow(alturaDaPessoa, 2))
 console.log (IMC)
+console.log (`O seu IMC é de ${IMC}`)
