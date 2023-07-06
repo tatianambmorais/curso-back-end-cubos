@@ -12,6 +12,8 @@ if (diaDaSemana===1){
 	console.log ("Sexta-feira");	
 } else if (diaDaSemana===6){
 		console.log ("Sabado");	
-	} else if (diaDaSemana===7){
+} else if (diaDaSemana===7){
 		console.log ("Domingo");	
-	}
+} else {
+	console.log ("O dia da semana informado não é válido")
+}
