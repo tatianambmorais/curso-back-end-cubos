@@ -1,13 +1,13 @@
-const alturaEmCm = 187;
+const alturaEmCm = 199;
 const alturaMinima= 180;
 
 if (alturaEmCm <alturaMinima ) {
 	console.log ("Reprovado");
-} else if (alturaEmCm>=180 && alturaEmCm<=185) {
+} else if (alturaEmCm<=185) {
 	console.log ("Líbero");
-} else if (alturaEmCm>=186 && alturaEmCm<=195) {
+} else if (alturaEmCm<=195) {
 console.log ("Ponteiro");
-} else if (alturaEmCm>=196 && alturaEmCm<=205) {
+} else if (alturaEmCm<=205) {
 	console.log ("Oposto");
 } else {
 	console.log ("Central");
