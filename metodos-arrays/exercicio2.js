@@ -12,3 +12,6 @@ if (nomes[i]>tamanhoDoGrupo-1){
 	console.log(grupo1, grupo2)
 }}
 criaGrupos();
+
+
+// duvida
