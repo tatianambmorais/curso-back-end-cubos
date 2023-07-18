@@ -35,4 +35,6 @@ console.log (`Olá, sou ${usuarios[i].nome} e não tenho pets`)
 console.log (`Olá, sou ${usuarios[i].nome} e tenho ${usuarios[i].pets} pets`)}
 }
 
+// o que está faltando?
+
 	
