@@ -21,20 +21,15 @@ const usuarios = [
     },
 ]
 
-/*a. Se a pessoa não tiver pets, a mensagem deve ser: Sou João e não tenho pets.
+for (const usuario of usuarios) {
+	const {pets, nome} = usuario 
 
-b. Se a pessoa tiver mais de um pet, a mensagem deve ser: Sou Ana e tenho 2 pets.
-
-c. Se a pessoa tiver um pet, a mensagem deve ser: Sou Beatriz e tenho 1 pet.*/
-
-const [nome, pets]= usuarios;
-for (let i=0; i<usuarios.length; i++){
-if (usuarios[i].pet==undefined || usuarios[i].pet==null){
-console.log (`Olá, sou ${usuarios[i].nome} e não tenho pets`)
+if (pets.length>0){
+	if (pets.lenght>1)
+{	console.log (`Sou ${nome} e tenho ${pets.length} pets `)}
+else {
+	console.log (`Sou ${nome} e tenho ${pets.length} pet `)}
 } else {
-console.log (`Olá, sou ${usuarios[i].nome} e tenho ${usuarios[i].pets} pets`)}
+	console.log (`Sou ${nome} e não tenho pets`)
 }
-
-// o que está faltando?
-
-	
+}
