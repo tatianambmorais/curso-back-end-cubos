@@ -1,7 +1,8 @@
-nomes=["Maria", "José", "João", "Pilar", "Onofre", "Guido"]
+nomes=["Maria", "José", "João", "Pilar", "Onofre", "Guido", "Adalberto"]
 nomesComA=[];
-for (item of nomes){
-if (item.includes("a") || item.includes("A") || item.includes("ã")){
-nomesComA.push(item)
-}
-} console.log(nomesComA)
+for (nome of nomes){
+const inicial = nome[0];
+ if (inicial==="a" || inicial ==="A"){
+	nomesComA.push(nome)
+ }
+}console.log(nomesComA)

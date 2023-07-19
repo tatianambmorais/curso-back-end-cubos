@@ -2,7 +2,7 @@ const letras = ['A', 'b', 'E', 'e', 'F', 'g', 'h', 'E'];
 
 let contador = 0;
 
-for (letra of letras) {
+for (let letra of letras) {
   if (letra === 'E' || letra === 'e') {
     contador++;
   }
