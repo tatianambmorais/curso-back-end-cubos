@@ -21,6 +21,7 @@ const participantes = [
 
 for (let i=0; i<participantes.length; i++)
 if (participantes[i].nome=="Carlos"){
-	console.log(`Galera... O Carlos está na posição ${i}, corre lá!`)
+	console.log(`Galera... O Carlos está na posição ${i+1}, corre lá!`)
+	break
 } else {
-}
+}	
