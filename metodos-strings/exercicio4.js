@@ -12,10 +12,10 @@ let email = "      jose@email.com  ";
 function verificaIdentificador (){
 	if (identificador.length<6){
 		identificadorRefatorado=identificador.padStart(6,"0")
-	}
+	}console.log(identificadorRefatorado)
 } 
 verificaIdentificador()
-console.log(identificadorRefatorado)
+
 
 let nomeFormatado = "";
 function formataNome(){
@@ -24,9 +24,9 @@ for (let item of arrayDeNome){
 	let restanteDoNome=item.slice(1)
 
 	nomeFormatado+=primeiraLetra.toUpperCase() + restanteDoNome + " ";
-}}
+}console.log (nomeFormatado)}
 formataNome()
-console.log (nomeFormatado)
+
 
 const emailFormatado=email.trim()
 console.log(emailFormatado)
