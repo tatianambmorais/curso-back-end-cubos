@@ -20,12 +20,19 @@ const usuarios = [
         idade: 32,
     },
 ]
+const jovens = [];
+let indiceJovens=0;
 
-for (let i=0; i<usuarios.length; i++){
-	if (usuarios[i].idade>18){
-		usuarios[i].faixaEtaria="adulto"
+const adultos=[];
+let indiceAdultos=0;
+for (const usuario of usuarios){
+	if (usuario.idade<18){
+		jovens[indiceJovens] = usuario;
+		indiceJovens++
 	} else {
-		usuarios[i].faixaEtaria="jovem"
+		adultos[indiceAdultos]=usuario;
+		indiceAdultos++
 	}
+
 }
-console.log (usuarios)
+	console.log (jovens, adultos)
