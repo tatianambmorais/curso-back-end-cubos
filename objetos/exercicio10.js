@@ -17,43 +17,54 @@ const monitor = { nome: "Monitor LG 29 FHD", valorEmCentavos: 129900 }
 
 
 //José 
-jose.carrinho.item=(tv)
-jose.carrinho.quantidade=1
-jose.carrinho.item2=(caboUsb)
-jose.carrinho.quantidade2=2
-jose.carrinho.item3=(webcam)
-jose.carrinho.quantidade3=1
+jose.carrinho=[
+{item:tv,
+quantidade:1},
+{item:caboUsb,
+quantidade:2},
+{item:webcam,
+quantidade:1}]
 console.log(jose)
 
 // carlos
-
-carlos.carrinho.item=(notebook)
-carlos.carrinho.quantidade=2
+carlos.carrinho=[
+	{item: notebook,
+	quantidade:2}
+]
 console.log(carlos)
 
 //patricia 
-carrinho.item=(teclado)
-patricia.carrinho.quantidade=1
-patricia.carrinho.item2=(caboUsb)
-patricia.carrinho.quantidade2=2
-patricia.carrinho.item3=(carregador)
-patricia.carrinho.quantidade3=1
-patricia.carrinho.item4=(mouse)
-patricia.carrinho.quantidade4=1
-patricia.carrinho.item5=(monitor)
-patricia.carrinho.quantidade=1
+patricia.carrinho=[
+	{item: teclado,
+	quantidade:1},
+	{item: caboUsb,
+	quantidade: 2},
+	{item: carregador,
+	quantidade: 1},
+	{item: mouse,
+	quantidade: 1},
+	{item: monitor,
+	quantidade: 1}
+]
+
 console.log(patricia)
 
 //Renato
-renato.carrinho.item=(webcam)
-renato.carrinho.quantidade=5
+renato.carrinho=[
+	{item: webcam,
+	quantidade: 5}
+]
+
 console.log(renato)
 
 //Roberto
-roberto.carrinho.item=(webcam)
-roberto.carrinho.quantidade=1
-roberto.carrinho.item2=(caboUsb)
-roberto.carrinho.quantidade2=2
-roberto.carrinho.item3=(monitor)
-roberto.carrinho.quantidade3=1
+roberto.carrinho=[
+	{item: webcam,
+	quantidade: 5,},
+	{item: caboUsb,
+	quantidade: 2},
+	{item: monitor,
+	quantidade:1}
+] 
+
 console.log(roberto)
