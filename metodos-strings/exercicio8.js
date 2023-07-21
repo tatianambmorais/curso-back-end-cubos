@@ -1,7 +1,13 @@
-function filtraCPF(){
-const cpf = "011.022.033-44";
-const cpfFiltrado=cpf.replaceAll(".","")
-const cpfFiltradoFinal=cpfFiltrado.replaceAll("-","")
-console.log (cpfFiltradoFinal)
+const cpf="011.022.033-44";
+const cnpj="11.022.033/0001/44";
+
+const removerPontuacao = (numero) => {
+	let numeros = numero.replace("-", " ").replace("-", " ").split(".");
+	let numeroLimpo=" ";
+
+	for (const item of numeros)
+{
+	numeroLimpo+=item;
 }
-filtraCPF();
+console.log (numeroLimpo)}
+removerPontuacao(cpf)
