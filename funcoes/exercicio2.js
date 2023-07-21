@@ -30,7 +30,7 @@ const carro = {
     },
     acelerar: function () {
         if (!this.ligado) {
-            this.ligado = true;
+            console.log ("Não é possível acelerar um carro desligado")
         }
 
         this.velocidade += 10;
@@ -52,3 +52,6 @@ const carro = {
 
 carro.desligar();
 carro.ligar();
+carro.ligar();
+carro.acelerar();
+carro.acelerar();
