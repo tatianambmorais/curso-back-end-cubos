@@ -113,5 +113,15 @@ insert into vendedores (cpf, nome) values ('28007155023','Carlos Eduardo
 
 insert into pedidos (valor, cliente_cpf, vendedor_cpf) values (9650, '803713.50042', '28007155023')
 
-insert into itens_do_pedido (quantidade, pedido_id, produto_id) values (1,1,1)
-^°
+insert into itens_do_pedido (quantidade, pedido_id, produto_id) values (1,1,1);
+insert into pedidos (valor, cliente_cpf, vendedor_cpf)
+values
+(9650, '80371350042', '28007155023');		
+
+insert into itens_do_pedido (quantidade, pedido_id, produto_id)
+values 
+(1,1,1);
+
+update produtos set quantidade_em_estoque=quantidade_em_estoque-1 where id=1;
+
+
